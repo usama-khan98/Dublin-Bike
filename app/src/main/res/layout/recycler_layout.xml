@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--NAME-->
+<!--STUDENT NUMBER-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60sp"
+    android:layout_marginBottom="2sp"
+    android:id="@+id/station_item">
+
+    <TextView
+        android:id="@+id/station_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:text="StationName"
+        tools:ignore="RtlCompat" />
+
+
+
+
+
+
+</RelativeLayout>

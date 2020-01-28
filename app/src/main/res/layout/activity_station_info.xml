@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--NAME-->
+<!--STUDENT NUMBER-->
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/station_info_relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/station_info_name"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Name"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/station_info_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/station_info_name"
+        />
+
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/station_info_bikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No. of Bikes"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:layout_below="@id/station_info_address"
+        android:textColor="@color/colorPrimary"
+
+        />
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/station_info_lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:layout_below="@id/station_info_bikes"
+        android:textColor="@color/colorPrimary"
+
+        />
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/station_info_lng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:layout_below="@id/station_info_lat"
+        android:textColor="@color/colorPrimary"
+
+        />
+
+
+
+
+
+</RelativeLayout>
